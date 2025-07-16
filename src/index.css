@@ -9,3 +9,20 @@ body {
   box-sizing: border-box;
   font-family: "Anek Malayalam", sans-serif;
 }
+
+.bg-weather-gradient{
+  background: linear-gradient(
+    120deg,
+    #38bdf8 0%,     
+    #0ea5e9 25%,    
+    #6366f1 50%,    
+    #a21caf 75%,    
+    #f472b6 100%    
+  ),
+  radial-gradient(
+    circle at bottom right,
+    #818cf8 0%,     
+    transparent 70%
+  );
+  background-blend-mode: screen;
+}

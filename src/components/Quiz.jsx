@@ -47,8 +47,8 @@ const Quiz = () => {
   
   
     return (
-  <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100">
-    <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-xl flex flex-col items-center">
+  <div className="min-h-screen flex items-center bg-weather-gradient  backdrop-blur-sm justify-center ">
+    <div className="bg-weather-gradient  backdrop-blur-sm shadow-xl rounded-xl p-8 w-full max-w-xl flex flex-col items-center">
       <h1 className="text-3xl font-bold text-purple-700 mb-6 text-center">Devlab Quiz App</h1>
       {showScore ? (
         <div className="flex flex-col items-center">
